@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Artist | Kalakriti Gallery</title>
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/gallery.css">
+<link rel="stylesheet" href="css/market.css">
+</head>
+<body data-page="artist">
+<a class="skip" href="#profile">Skip to the profile</a>
+<header class="nav">
+  <a class="brand" href="index.html" id="brandName">Kalakriti</a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Open menu"><span></span></button>
+  <nav class="nav-links" id="navLinks" aria-label="Main">
+    <a href="index.html#gallery">Collection</a>
+    <a href="index.html#artists">Artists</a>
+    <div class="auth-links" id="authLinks"></div>
+  </nav>
+</header>
+<main class="section page" id="profile"></main>
+<div class="sr-only" id="announcer" aria-live="polite"></div>
+<noscript><p style="padding:24px">This page needs JavaScript.</p></noscript>
+<script src="js/config.js"></script>
+<script src="js/artworks-data.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/placeholder-art.js"></script>
+<script src="js/storage.js"></script>
+<script src="js/market.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/market-ui.js"></script>
+<script src="js/artist-page.js"></script>
+</body>
+</html>
